@@ -1,0 +1,18 @@
+{
+    "SECTION: Components": {},
+    "Menu": {
+        "home": "Casa",
+        "account": "Cuenta",
+        "login": "Iniciar",
+        "logout": "Desconectar"
+    },
+
+    "SECTION: Pages": {},
+    "AccountPage": {
+        "title": "Mis Cosas"
+    },
+    "IndexPage": {
+        "title": "Casa"
+    }
+
+}

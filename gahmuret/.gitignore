@@ -1,0 +1,23 @@
+/.vercel
+/.cache
+/build
+/app/build
+/public/build/
+/public/_dev
+/app/public/build
+
+.env
+.env*
+!.env.example
+!.env-test.example
+package-lock.json
+yarn.lock
+
+# Ignore all logfiles and tempfiles.
+/**/log/*
+!/**/log/.keep
+/**/tmp
+newrelic_agent.log
+
+# Ignore nodejs config
+/**/node_modules

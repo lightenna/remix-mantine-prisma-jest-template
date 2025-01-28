@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ES2022"
+        ],
+        "strict": true,
+        "skipLibCheck": true,
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": false,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "jsx": "react-jsx",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "resolveJsonModule": true,
+        "target": "ES2022",
+        "noEmit": true,
+        "allowJs": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [ "./app/*" ],
+            "~/*": [ "./*" ]
+        },
+        "types": [
+            "node",
+            "@remix-run/node",
+            "vite/client",
+            "jest",
+            "@types/jest",
+            "@testing-library/jest-dom",
+            "@quramy/jest-prisma"
+        ]
+    },
+    "include": [
+        "env.d.ts",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+}
